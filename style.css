@@ -55,22 +55,6 @@ body{
   border-bottom: 5px solid LightSkyBlue;
 }
 
-.thumbnailContainer{
-
-}
-
-.thumbnail{
-  width: 200px;
-  height: 200px;
-  background-image: url(http://www.fillmurray.com/300/200);
-  background-size: cover;
-  display: inline-flex;
-}
-
-.footer{
-
-}
-
 .social{
   display: flex;
   height: 20px;
