@@ -14,15 +14,15 @@ body{
 
 .navigation{
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
+  margin-top: -1px;
 }
 
 .navigation a {
-  justify-content: flex-end;
+  justify-content: center;
   text-decoration: none;
   display: flex;
   color: LightSkyBlue;
-  justify-content: center;
 }
 
 .logo{
@@ -40,7 +40,6 @@ body{
   display: inline-flex;
   height: 10px;
   background-color: white;
-  justify-content: space-around;
   padding: 20px;
   border-right: 2px solid LightSkyBlue;
 }
@@ -63,26 +62,21 @@ body{
 .thumbnail{
   width: 200px;
   height: 200px;
-  background-image: url(http://www.fillmurray.com/200/200);
+  background-image: url(http://www.fillmurray.com/300/200);
   background-size: cover;
+  display: inline-flex;
 }
 
 .footer{
-  display: inline-flex;
-  flex-direction: row;
-  height: 10px;
-  justify-content: center;
-  padding: 20px;
-  width: 100%;
+
 }
 
 .social{
+  display: flex;
   height: 20px;
-  width: 32.26%;
-  justify-content: center;
   background-color: green;
 }
 
-footer {
-  justify-content: center;
+footer ul li a {
+  margin-left: 40%;
 }
