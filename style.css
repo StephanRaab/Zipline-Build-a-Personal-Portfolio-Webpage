@@ -74,9 +74,11 @@ body{
 .social{
   display: flex;
   height: 20px;
-  background-color: green;
+  background-color: white;
 }
 
 footer ul li a {
   margin-left: 40%;
+  background-color: inherit;
+  color: DarkBlue;
 }
