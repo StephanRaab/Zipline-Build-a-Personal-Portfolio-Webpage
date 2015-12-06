@@ -1,0 +1,88 @@
+*, a, h1{
+  font-family: sans-serif;
+  font-style: normal;
+  color: white;
+  list-style: none;
+  text-decoration: none;
+}
+
+body{
+  background: url('http://thecodeplayer.com/u/m/b1.png') no-repeat center center fixed;
+  background-size: cover;
+  margin: 0 5%;
+}
+
+.navigation{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navigation a {
+  justify-content: flex-end;
+  text-decoration: none;
+  display: flex;
+  color: LightSkyBlue;
+  justify-content: center;
+}
+
+.logo{
+  display: inline-flex;
+  justify-content: flex-start;
+  justify-content: center;
+  text-decoration: none;
+  color: LightSkyBlue;
+  height: 10px;
+  background-color: white;
+  padding: 20px;
+}
+
+.nav-btn{
+  display: inline-flex;
+  height: 10px;
+  background-color: white;
+  justify-content: space-around;
+  padding: 20px;
+  border-right: 2px solid LightSkyBlue;
+}
+.nav-btn:last-child{
+  border-right: none;
+}
+
+.active{
+  border-bottom: 5px solid LightSkyBlue;
+}
+
+.nav-btn:hover{
+  border-bottom: 5px solid LightSkyBlue;
+}
+
+.thumbnailContainer{
+
+}
+
+.thumbnail{
+  width: 200px;
+  height: 200px;
+  background-image: url(http://www.fillmurray.com/200/200);
+  background-size: cover;
+}
+
+.footer{
+  display: inline-flex;
+  flex-direction: row;
+  height: 10px;
+  justify-content: center;
+  padding: 20px;
+  width: 100%;
+}
+
+.social{
+  height: 20px;
+  width: 32.26%;
+  justify-content: center;
+  background-color: green;
+}
+
+footer {
+  justify-content: center;
+}
