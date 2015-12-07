@@ -1,7 +1,6 @@
 *, a, h1{
-  font-family: sans-serif;
   font-style: normal;
-  color: white;
+  color: #e7e7e7;
   list-style: none;
   text-decoration: none;
 }
@@ -12,17 +11,9 @@ body{
   margin: 0 5%;
 }
 
-.navigation{
-  display: flex;
-  justify-content: center;
-  margin-top: -1px;
-}
-
-.navigation a {
-  justify-content: center;
-  text-decoration: none;
-  display: flex;
-  color: LightSkyBlue;
+.navbar-default .navbar-nav>li:hover{
+  border-bottom: 5px solid LightSkyBlue;
+  background-color: #e7e7e7;
 }
 
 .logo{
