@@ -1,59 +1,16 @@
-*, a, h1{
-  font-style: normal;
-  color: #e7e7e7;
-  list-style: none;
-  text-decoration: none;
-}
-
 body{
-  background: url('http://thecodeplayer.com/u/m/b1.png') no-repeat center center fixed;
-  background-size: cover;
+  background: url('geometry2.png') repeat center fixed;
   margin: 0 5%;
 }
 
-.navbar-default .navbar-nav>li:hover{
+.navbar-default .navbar-nav li a:hover{
   border-bottom: 5px solid LightSkyBlue;
-  background-color: #e7e7e7;
 }
 
-.logo{
-  display: inline-flex;
-  justify-content: flex-start;
-  justify-content: center;
-  text-decoration: none;
-  color: LightSkyBlue;
-  height: 10px;
-  background-color: white;
-  padding: 20px;
-}
-
-.nav-btn{
-  display: inline-flex;
-  height: 10px;
-  background-color: white;
-  padding: 20px;
-  border-right: 2px solid LightSkyBlue;
-}
-.nav-btn:last-child{
-  border-right: none;
+.navbar-header .navbar-brand{
+  padding: 12px 0px;
 }
 
 .active{
   border-bottom: 5px solid LightSkyBlue;
-}
-
-.nav-btn:hover{
-  border-bottom: 5px solid LightSkyBlue;
-}
-
-.social{
-  display: flex;
-  height: 20px;
-  background-color: white;
-}
-
-footer ul li a {
-  margin-left: 40%;
-  background-color: inherit;
-  color: DarkBlue;
 }
