@@ -20,6 +20,7 @@ a #link:hover{
   text-align: center;
   padding: 15px 10px;
 }
+
 #header h1,h4,h5,a{
   color: #fff;
   line-height: 2;
@@ -56,6 +57,10 @@ a #link:hover{
 
 #about-me{
   margin-top: 2em;
+}
+
+.pp{
+  border-radius: 50%;
 }
 
 h2{
