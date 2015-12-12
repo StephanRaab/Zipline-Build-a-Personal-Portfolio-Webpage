@@ -8,6 +8,10 @@ ul li{
   padding: 1.2em;
 }
 
+a #link:hover{
+  text-decoration: underline;
+}
+
 #header{
   background-color: rgba(52, 152, 219,1.0);
   background-size: cover;
@@ -24,7 +28,6 @@ ul li{
 #nav{
   display: inline-flex;
   justify-content: center;
-  background-color: ;
   padding: 1em 1em .5em 1em;
 }
 
@@ -66,4 +69,33 @@ h2{
 
 .thumbnail{
   padding: 3px;
+}
+
+.thumbnail:hover{
+    cursor: pointer;
+}
+
+.dotted-line{
+  border-style: dashed;
+  border-bottom: .2px;
+  border-color: #f2f2f2;
+  margin: 1em 0;
+}
+
+ul li a{
+  color: #7f8c8d;
+  margin: 20px 30px;
+}
+
+#footer-hover{
+  justify-content: center;
+  display: inline-flex;
+  margin-bottom: 2rem;
+  border-radius: 3px;
+  transition: all .25s ease-in-out;
+}
+
+#footer-hover:hover{
+  background: #f8f8f8;
+  transition: all .25s ease-in-out;
 }
