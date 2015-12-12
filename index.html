@@ -13,45 +13,45 @@
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
     <script type="text/javascript" src="js/smoothscroll.js"></script>
     <script>
-  $(document).ready(function() {
+      $(document).ready(function() {
 
-    $('ul.mainnav a').smoothScroll();
+        $('ul li a').smoothScroll();
 
-    $('p.subnav a').click(function(event) {
-      event.preventDefault();
-      var link = this;
-      $.smoothScroll({
-        scrollTarget: link.hash
+        $('ul li a').click(function(event) {
+          event.preventDefault();
+          var link = this;
+          $.smoothScroll({
+            scrollTarget: link.hash
+          });
+        });
+
+        $('#change-speed').on('click', function() {
+          var $p1 = $('ul.mainnav a').first(),
+              p1Opts = $p1.smoothScroll('options') || {};
+
+          p1Opts.speed = p1Opts.speed === 1400 ? 400 : 1400;
+          $p1.smoothScroll('options', p1Opts);
+        });
+
+        $('button.scrollsomething').click(function() {
+          $.smoothScroll({
+            scrollElement: $('div.scrollme'),
+            scrollTarget: '#findme'
+          });
+          return false;
+        });
+        $('button.scrollhorz').click(function() {
+          $.smoothScroll({
+            direction: 'left',
+            scrollElement: $('div.scrollme'),
+            scrollTarget: '.horiz'
+          });
+          return false;
+        });
+
       });
-    });
 
-    $('#change-speed').on('click', function() {
-      var $p1 = $('ul.mainnav a').first(),
-          p1Opts = $p1.smoothScroll('options') || {};
-
-      p1Opts.speed = p1Opts.speed === 1400 ? 400 : 1400;
-      $p1.smoothScroll('options', p1Opts);
-    });
-
-    $('button.scrollsomething').click(function() {
-      $.smoothScroll({
-        scrollElement: $('div.scrollme'),
-        scrollTarget: '#findme'
-      });
-      return false;
-    });
-    $('button.scrollhorz').click(function() {
-      $.smoothScroll({
-        direction: 'left',
-        scrollElement: $('div.scrollme'),
-        scrollTarget: '.horiz'
-      });
-      return false;
-    });
-
-  });
-
-</script>
+    </script>
   </head>
 
   <body>
