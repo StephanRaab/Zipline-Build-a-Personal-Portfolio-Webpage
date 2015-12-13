@@ -13,7 +13,7 @@ a #link:hover{
   text-decoration: underline;
 }
 
-#header{
+ header{
   background-color: rgba(52, 152, 219,1.0);
   background-size: cover;
   width:100%;
@@ -27,7 +27,7 @@ a #link:hover{
   line-height: 2;
 }
 
-#nav{
+nav{
   display: inline-flex;
   justify-content: center;
   padding: 1em 1em .5em 1em;
@@ -47,7 +47,7 @@ a #link:hover{
   color: #3498db;
 }
 
-.line{
+hr{
   border-bottom: 2px solid #7f8c8d;
   margin-bottom: 1em;
 }
@@ -76,6 +76,7 @@ h2{
 
 .thumbnail{
   padding: 3px;
+  background: #f8f8f8;
 }
 
 .thumbnail:hover{
