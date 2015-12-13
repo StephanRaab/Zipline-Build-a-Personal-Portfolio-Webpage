@@ -1,57 +1,41 @@
-ul li{
-  list-style: none;
+.container{
+  margin-right: 3em;
 }
 
 .logo{
-  display: inline-flex;
-  justify-content: center;
+  align-items: center;
   padding: 1.2em;
   margin-top: -10px;
 }
 
-a #link:hover{
-  text-decoration: underline;
+a{
+text-decoration: none;
 }
 
 header{
   background-color: rgba(52, 152, 219,1.0);
-  background-size: cover;
-  width:100%;
   height: 350px;
+  width: 400px;
   text-align: center;
-  padding: 15px 10px;
-}
-
-header h1,h4,h5,a{
-  color: #fff;
-  line-height: 2;
 }
 
 nav{
   display: inline-flex;
+  align-items: center;
   justify-content: center;
-  padding: 1em 1em .5em 1em;
+  height: 40px;
 }
 
 nav a{
   color: #7f8c8d;
-  margin: 20px 30px -13px 30px;
+  align-items: center;
+  text-align: center;
 }
 
 nav a:hover{
   color: #3498db;
   border-bottom: 3px solid #3498db;
-  margin-bottom: -24px;
-}
-
-hr{
-  border-bottom: 2px solid #7f8c8d;
-  margin-bottom: 1em;
-}
-
-.positioning{
-  margin-left: 6em;
-  margin-right: 6em;
+  padding-bottom: 35px;
 }
 
 #about-me{
@@ -72,25 +56,19 @@ h2{
 }
 
 .thumbnail{
-  padding: 3px;
   background: #f8f8f8;
 }
 
 .thumbnail:hover{
   cursor: pointer;
   background: #3498db;
-
 }
 
-.footer-hover{
-  justify-content: center;
-  display: inline-flex;
-  margin-bottom: 2rem;
-  border-radius: 3px;
-  transition: all .25s ease-in-out;
+footer a{
+  color: #7f8c8d;
+  text-align: center;
 }
 
-.footer-hover:hover{
-  background: #f8f8f8;
-  transition: all .25s ease-in-out;
+footer a:hover{
+  color: #3498db;
 }
