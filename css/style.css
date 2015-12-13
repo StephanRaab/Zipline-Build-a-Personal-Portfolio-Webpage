@@ -13,7 +13,7 @@ a #link:hover{
   text-decoration: underline;
 }
 
- header{
+header{
   background-color: rgba(52, 152, 219,1.0);
   background-size: cover;
   width:100%;
@@ -22,7 +22,7 @@ a #link:hover{
   padding: 15px 10px;
 }
 
-#header h1,h4,h5,a{
+header h1,h4,h5,a{
   color: #fff;
   line-height: 2;
 }
@@ -33,18 +33,15 @@ nav{
   padding: 1em 1em .5em 1em;
 }
 
-#nav li a{
+nav a{
   color: #7f8c8d;
   margin: 20px 30px -13px 30px;
 }
 
-#nav li:hover{
+nav a:hover{
+  color: #3498db;
   border-bottom: 3px solid #3498db;
   margin-bottom: -24px;
-}
-
-#nav li a:hover{
-  color: #3498db;
 }
 
 hr{
@@ -80,22 +77,12 @@ h2{
 }
 
 .thumbnail:hover{
-    cursor: pointer;
+  cursor: pointer;
+  background: #3498db;
+
 }
 
-.dotted-line{
-  border-style: dashed;
-  border-bottom: .2px;
-  border-color: #f2f2f2;
-  margin: 1em 0;
-}
-
-ul li a{
-  color: #7f8c8d;
-  margin: 20px 30px;
-}
-
-#footer-hover{
+.footer-hover{
   justify-content: center;
   display: inline-flex;
   margin-bottom: 2rem;
@@ -103,7 +90,7 @@ ul li a{
   transition: all .25s ease-in-out;
 }
 
-#footer-hover:hover{
+.footer-hover:hover{
   background: #f8f8f8;
   transition: all .25s ease-in-out;
 }
