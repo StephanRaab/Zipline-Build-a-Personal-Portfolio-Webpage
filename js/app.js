@@ -2,6 +2,6 @@ $(document).foundation();
 
 $(document).ready(function(){
 
-  $('a').smoothScroll();
+  $('nav a').smoothScroll();
 
 });
