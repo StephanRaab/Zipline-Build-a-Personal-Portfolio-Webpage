@@ -2,11 +2,19 @@
 h1{
   font-family: 'Open Sans', sans-serif;
   font-weight: 800;
+  font-size: 32px;
+  text-transform: uppercase;
 }
 
 h2{
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
+  color: #2c3e50;
+}
+
+p{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
 }
 
 .container{
@@ -65,16 +73,8 @@ hr{
   padding: 0;
 }
 
-#about-me{
-  margin-top: 2em;
-}
-
 .pp{
   border-radius: 50%;
-}
-
-h2{
-  color: #2c3e50;
 }
 
 .lead-text{
@@ -83,7 +83,7 @@ h2{
 }
 
 .thumbnail{
-  background: #f8f8f8;
+  border-radius: 5px;
 }
 
 .thumbnail:hover{
