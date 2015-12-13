@@ -1,21 +1,40 @@
+
+h1{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+}
+
+h2{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+}
+
 .container{
   margin-right: 3em;
 }
 
 .logo{
+  padding: 1em;
+  margin-bottom: -5px;
+  display: inline-flex;
   align-items: center;
-  padding: 1.2em;
-  margin-top: -10px;
+  justify-content: center;
+}
+
+.intro{
+  color: #f1f1f1;
+  line-height: 2;
 }
 
 a{
-text-decoration: none;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
 }
 
 header{
   background-color: rgba(52, 152, 219,1.0);
-  height: 350px;
-  width: 400px;
+  height: 400px;
   text-align: center;
 }
 
@@ -36,6 +55,14 @@ nav a:hover{
   color: #3498db;
   border-bottom: 3px solid #3498db;
   padding-bottom: 35px;
+  transition: width 2s ease-in-out 1s;
+}
+
+hr{
+  height: 1px;
+  border: 0;
+  border-top: 2px solid #cccccc;
+  padding: 0;
 }
 
 #about-me{
