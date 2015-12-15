@@ -10,14 +10,14 @@ h2{
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
   font-size: 24px;
-  color: #4d4c52;
+  color: #736d79;
   padding-left: 1em;
 }
 
 p{
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
-  color: #7d8083;
+  color: #736d79;
 }
 
 p a{
@@ -60,7 +60,7 @@ a{
 }
 
 header{
-  background-color: rgba(52, 152, 219,1.0);
+  background-color: #f1d31d;
   height: 400px;
   text-align: center;
 }
@@ -73,14 +73,14 @@ nav{
 }
 
 nav a{
-  color: #7f8c8d;
+  color: #736d79;
   align-items: center;
   text-align: center;
 }
 
 nav a:hover{
-  color: #3498db;
-  border-bottom: 3px solid #3498db;
+  color: #f1d31d;
+  border-bottom: 3px solid #f1d31d;
   padding-bottom: 35px;
   transition: width 2s ease-in-out 1s;
 }
@@ -88,12 +88,12 @@ nav a:hover{
 hr{
   height: 1px;
   border: 0;
-  border-top: 2px solid #cccccc;
+  border-top: 2px solid #736d79;
   padding: 0;
 }
 
 .lead-text{
-  color: #34495e;
+  color: #736d79;
   line-height: 2;
 }
 
@@ -103,22 +103,22 @@ hr{
 
 .thumbnail:hover{
   cursor: pointer;
-  background: #3498db;
+  background: #f1d31d;
 }
 
 .skills{
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
   font-size: 18px;
-  color: rgb(113, 113, 113);
+  color: #736d79;
   text-align: center;
 }
 
 footer a{
-  color: #7f8c8d;
+  color: #736d79;
   text-align: center;
 }
 
 footer a:hover{
-  color: #3498db;
+  color: #f1d31d;
 }
