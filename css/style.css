@@ -30,6 +30,7 @@ p a{
 
 p a:hover{
   text-decoration: underline;
+  border: 2px solid #5B4949;
 }
 
 img{
