@@ -141,7 +141,12 @@ hr{
   border-color: darkseagreen;
 }
 
-
+#about-me{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+    
+    
 #about-me:hover>span{
   padding-left: 10px;
   transition: .2s all linear;
