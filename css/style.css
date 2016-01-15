@@ -1,124 +1,70 @@
-
-h1{
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 800;
-  font-size: 32px;
-  text-transform: uppercase;
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-bottom: 2rem;
 }
 
-h2{
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 600;
-  font-size: 24px;
-  color: #4d4c52;
-  padding-left: 1em;
-}
-
-p{
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 400;
-  color: #7d8083;
-}
-
-p a{
-  color: #f1f1f1;
-  line-height: 2;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 400;
+a:hover{
   text-decoration: none;
 }
 
-p a:hover{
-  text-decoration: underline;
+.navbar{
+  padding-left: 3em;
+  padding-right: 3em;
 }
 
-img{
-  border-radius: 3px;
+.nav-link, .navbar-brand{
+  color: #888;
 }
 
-.container{
-  margin-right: 3em;
+.jumbotron{
+  background-image: url("http://tinyurl.com/gtrgq4f");
+  background-size: cover;
+  color: white;
+  height: 500px;
 }
 
-.logo{
-  padding: 1em;
-  margin-bottom: -5px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
+.card-deck-wrapper{
+  display: flex;
 }
 
-.intro{
-  color: #f1f1f1;
-  line-height: 2;
+.btn-success-outline {
+    color: darkseagreen;
+    background-color: transparent;
+    background-image: none;
+    border-color: darkseagreen;
 }
 
-a{
-  text-decoration: none;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 400;
+.btn-success-outline:hover {
+    color: #fff;
+    background-color: darkseagreen;
+    border-color: darkseagreen;
 }
 
-header{
-  background-color: rgba(52, 152, 219,1.0);
-  height: 400px;
-  text-align: center;
+#about-me{
+  margin-bottom: 3rem;
+  margin-top: 3rem;
 }
 
-nav{
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  height: 40px;
+#about-me:focus{
+  background-color: darkseagreen;
+  border-color: darkseagreen;
 }
 
-nav a{
-  color: #7f8c8d;
-  align-items: center;
-  text-align: center;
+#about-me:hover>span{
+  padding-left: 10px;
+  transition: .2s all linear;
 }
 
-nav a:hover{
-  color: #3498db;
-  border-bottom: 3px solid #3498db;
-  padding-bottom: 35px;
-  transition: width 2s ease-in-out 1s;
+#about-me:hover:after>span{
+  padding-left: -10px;
+  transition: .2s all linear;
 }
 
-hr{
-  height: 1px;
-  border: 0;
-  border-top: 2px solid #cccccc;
-  padding: 0;
+a:hover {
+    color: darkseagreen;
 }
 
-.lead-text{
-  color: #34495e;
-  line-height: 2;
-}
-
-.thumbnail{
-  border-radius: 5px;
-}
-
-.thumbnail:hover{
-  cursor: pointer;
-  background: #3498db;
-}
-
-.skills{
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 600;
-  font-size: 18px;
-  color: rgb(113, 113, 113);
-  text-align: center;
-}
-
-footer a{
-  color: #7f8c8d;
-  text-align: center;
-}
-
-footer a:hover{
-  color: #3498db;
+footer{
+  height: 115px;
+  padding: 50px 0;
 }
