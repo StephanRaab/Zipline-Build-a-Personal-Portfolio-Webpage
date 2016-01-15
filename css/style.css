@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 /* Move down content because we have a fixed navbar that is 50px tall */
 body {
   padding-bottom: 2rem;
@@ -15,7 +15,6 @@ a:hover{
 
 .nav-link, .navbar-brand{
   color: #888;
-=======
 
 h1{
   font-family: 'Open Sans', sans-serif;
@@ -82,7 +81,6 @@ header{
   background-color: #f1d31d;
   height: 400px;
   text-align: center;
->>>>>>> origin/gh-pages
 }
 
 .jumbotron{
@@ -92,7 +90,6 @@ header{
   height: 500px;
 }
 
-<<<<<<< HEAD
 .card-deck-wrapper{
   display: flex;
 }
@@ -113,7 +110,7 @@ header{
 #about-me{
   margin-bottom: 3rem;
   margin-top: 3rem;
-=======
+
 nav a{
   color: #736d79;
   align-items: center;
@@ -137,7 +134,6 @@ hr{
 .lead-text{
   color: #736d79;
   line-height: 2;
->>>>>>> origin/gh-pages
 }
 
 #about-me:focus{
@@ -145,7 +141,7 @@ hr{
   border-color: darkseagreen;
 }
 
-<<<<<<< HEAD
+
 #about-me:hover>span{
   padding-left: 10px;
   transition: .2s all linear;
@@ -163,7 +159,7 @@ a:hover {
 footer{
   height: 115px;
   padding: 50px 0;
-=======
+
 .thumbnail:hover{
   cursor: pointer;
   background: #f1d31d;
@@ -184,5 +180,4 @@ footer a{
 
 footer a:hover{
   color: #f1d31d;
->>>>>>> origin/gh-pages
 }
